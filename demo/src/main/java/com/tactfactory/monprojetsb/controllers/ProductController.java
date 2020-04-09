@@ -44,15 +44,20 @@ public class ProductController {
         return "redirect:index";
     }
 
-    @GetMapping(value = {"/delete/{id}"})
-    public String delete(@PathVariable(value = "id") long id) {
+    @PostMapping(value = {"/delete"})
+    public String delete(Long id) {
+        Product product = repository.getOne(id);
+        repository.delete(product);
         return "redirect:index";
     }
 
-    @GetMapping(value = {"/details/{id}"})
-    public String details(@PathVariable(value = "id") long id) {
-        return "redirect:index";
+
+    @GetMapping(value = {"/show/{id}"})
+    public String details(Model model, @PathVariable(value = "id") String id) {
+        model.addAttribute("product", repository.getOne(Long.parseLong(id)));
+        return "product/detail";
     }
+
 
 }
 
