@@ -55,4 +55,8 @@ public class User {
 		this.lastname = lastname;
 		this.products = products;
 	}
+	
+	public User() {
+		
+	}
 }

@@ -52,4 +52,8 @@ public class Product {
 		this.price = price;
 		this.user = user;
 	}
+	
+	public Product() {
+		
+	}
 }
