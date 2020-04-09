@@ -2,6 +2,7 @@ package com.tactfactory.monprojetsb.entities;
 
 import javax.persistence.*;
 
+@Entity
 public class Product {
 	@Id
 	@GeneratedValue
