@@ -1,0 +1,1362 @@
+[
+  {
+    "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions",
+    "fingerprint": "d95706b01ae37c45321ba812a81b73a6e5486c0707eefc51776d9c7c7e489b68",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 30
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions",
+    "fingerprint": "a9581f3df041357764051278ae33198c6a3c159818411961260382fefd053f2f",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions",
+    "fingerprint": "855b91ed6e5d6818eddf13bea383c0b33e86f43a30e7d9471a9ef6e3dfafb02f",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 19
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u0027160\u0027-\u0027165\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "cdf424a84dc9240b0badd4e65aec1c88ea679c2eb5ed68cc60aff7816f5f4ec3",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 160
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u0027148\u0027-\u0027153\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "d7f6135ab5fa7f148664f1191d369b978357ac1168f874d020def34975234b97",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 148
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u0027136\u0027-\u0027141\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "3197c907b2fea30ed30a606574050e6e323a4925169a2cd0ccea8660243703da",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 136
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u0027124\u0027-\u0027129\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "ebafe5ab1588f50bb61e25504d0e86f95802f2567b1f0fdfab11d7fd7fbf0c03",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 124
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u0027112\u0027-\u0027117\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "abe019d620eef62fcf72ee0f23a43f4e04b3432560679f213a964561866d26f4",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 112
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u0027100\u0027-\u0027105\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "83a27499833ce0f00ea825cf06c45dbf12c0ee73956eeb145d9c463018e8d941",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 100
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u002788\u0027-\u002793\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "2d8e2ff27d05a5671e6799018136166f21d7302aaf43a0e8ff18874c6e7b0723",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 88
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u002776\u0027-\u002781\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "b8189185370e1d812622588ca9688e786d74e5863d392af23dcc0193b744e99f",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 76
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u002764\u0027-\u002769\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "74f1b47705dc1fb294b40090e4090fe61f6a993e233fd687524310287e87ee26",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 64
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u002752\u0027-\u002757\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "79bbadcfe8f3bc0e1991e9a6de6056a27c75829e43ec0f9fbd0adaada54c65e3",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 52
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u002740\u0027-\u002745\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "a9014302c4aaf21fedc90960fadc92bd484cbbdabd8b740e3421878021f5b742",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 40
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u002727\u0027-\u002733\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "2db82a446ff31f5dcc3132ad352cb969f1e0018b37cd6c444853231c60ecf02d",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 27
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "The String literal \u0026quot;Michel\u0026quot; appears 6 times in this file; the first occurrence is on line 19\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#avoidduplicateliterals",
+    "fingerprint": "bd7ecf02b854f81bf655261a8f972e3603ae5733e2b4cde1f4a662f554da6061",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 19
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "The String literal \u0026quot;jean\u0026quot; appears 8 times in this file; the first occurrence is on line 18\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#avoidduplicateliterals",
+    "fingerprint": "efa29fb6e85f7502f4c6a72f8ebf7d37bbf7d8892d95e8ebc7e9994cfefa373a",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 18
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u002717\u0027-\u002720\u0027).\r\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "f6b84500545293bb250b76794d0d0b19a172e9df6fe0658ac839c29c4d28c24c",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "21e5071c5c63f3a2d4283b75ad33d411ba3305aaf88e9cea2579ae336cf2c582",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/App.java",
+      "lines": {
+        "begin": 16
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre args devrait être final.",
+    "fingerprint": "0f1d39948776f150a011563c7f208747db4e1e9e3fe34cf64de338a26d60e1ed",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/App.java",
+      "lines": {
+        "begin": 16
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027App\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getGreeting\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "031f43bff6a4c616316e8e3b5db0092c830eb6ff587f1e8223a34320509e38d1",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/App.java",
+      "lines": {
+        "begin": 12
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "02e3b1ae46a263827186ca4dcd5d815002d0d3c83565c8bcbffa21ad18eba5e7",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/App.java",
+      "lines": {
+        "begin": 12
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027lastname\u0027 masque un attribut.",
+    "fingerprint": "3901cbe36c9a509822ab487ed40551b60cb049b1cbc548d6cf6063fb718846ee",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setLastname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "282af8476d0ab8c49af229ad2cb77b11ba7bd6c723fc9d430edca9de0b8ab14a",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "d992168b39f4a655b0b4122260e2604a81953205c5ee9a7c76bbb48ccbc15690",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre lastname devrait être final.",
+    "fingerprint": "a04ac40a1bf150d34ea43764fb67876009b48a48130e4dc1f768604fd0c3704c",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027,\u0027.",
+    "fingerprint": "218b07f9378b501f4a8c1b5364d8a2bdb438331065d95c5233c3603fb88cc8b2",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 30
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027,\u0027.",
+    "fingerprint": "df9008fa13c31b106a1bcfdeede8b42008fcd17993e2c02bbe9e3a66c8000d7f",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027\u003e\u0027.",
+    "fingerprint": "ad05460f295eecb3033e6ff4a9a4464410ea230bdb4609475f5a73c16295248f",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 28
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace avant \u0027\u003e\u0027.",
+    "fingerprint": "c0e6c8de434088d948cb6e29c2b086e0a942fe1d699497daac4d1b3bd907a378",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 28
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getLastname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "1d2fb3ef8867336952d58fe3a9b5d5e8c73770f239b8f9350d30541d25312bfd",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 26
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "951e16d7730fc791e02ca43a227d665b09ce4e6f3a1fae7423ddf6c384bdd76c",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 26
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027firstname\u0027 masque un attribut.",
+    "fingerprint": "726a06fedcf5b0419dba9bfa43804421311b5d39d681c6e4dc61ea3d842ffd9b",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 22
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setFirstname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "1989d7c9d70240b5e65ba2a88c688716969920ae3c712f9b23369c86a44cadf5",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 22
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "f85268167a7d8aa4f5e8dfaeafebd7b4f4674ea6b6659982ccc84c368640d703",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 22
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre firstname devrait être final.",
+    "fingerprint": "481ebbbb9c6bb9cb9c09f50ecbd6124dd726fc1e31cf69225ed2dd36ccb41509",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 22
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getFirstname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "9876b25923ce72e0f21a22d1e38980ebce0b21cc08258f377530969131f9e018",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "610e11987eb651388a37c5dbb5b97e87e605f3f55d36d5d901687bfead651d50",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027firstname\u0027 masque un attribut.",
+    "fingerprint": "321ceaf28d8bb56041b19950e1837757eef48d9687499c2824335bf3e421ba2d",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027lastname\u0027 masque un attribut.",
+    "fingerprint": "6af058c224f0817f8d8c23f6b99f73cd7cce3654fa4d19bed0d99429fccb9ac1",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "d3ee99389fc961969ec0a495a058e9d690a90c1687b9dde2f7c1cd9e78ea5424",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre firstname devrait être final.",
+    "fingerprint": "ccfe67cda72abd26b6b4cd869a4c8cd3743d17d90fd47102b93dba26a9211b02",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre lastname devrait être final.",
+    "fingerprint": "125bec105971a719c1731c91a979be65cb799c6b2d030c2ec82e42bc3ba1dc79",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "accdbcc21d481df8b7de4346070a7754a3da092405cf67f701c0b7b9c78a7f55",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 7
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "7088ca317b53913010635cce9f0e27ee4dc235d34a016d98142aea22094a5a83",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 5
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "8905a3a77049abf56bab8677232fdef4b5c2589185dbd07ba6f9c6dbf5aa3df9",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 4
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Line has trailing spaces.",
+    "fingerprint": "2c77f3631a48b62d93f4e486c7f24c04646136a12c2f08d112de33825614e948",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 2
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque un caractère NewLine à la fin du fichier.",
+    "fingerprint": "c312893ca1d000ae1f1961c1f4b16527ad5e278834e246778b70ceb8cff6c808",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le commentaire Javadoc est placé au mauvais endroit.",
+    "fingerprint": "f36911e2964b26133865c48ffae1a1af3704085389f21d4633e9be3e3da66a6e",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/main/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "La ligne excède 80 caractères (trouvé 82).",
+    "fingerprint": "f211e0213b227ee5b74e5297f132a307e24e84b6c60217b7449826932d0238c8",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/AppTest.java",
+      "lines": {
+        "begin": 12
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "L\u0027utilisation des import.* est prohibé - org.junit.jupiter.api.Assertions.*.",
+    "fingerprint": "da1f713a77e943f009e845569ea4796de11a447443ad6f12bcddcd3a23eed39e",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/AppTest.java",
+      "lines": {
+        "begin": 7
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier package-info.java est manquant.",
+    "fingerprint": "391abac92af857911f6eaf58918ff9bcbf1fcca758e7fb10141a4a28134abb8a",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/AppTest.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "964544eed86644f773c55d91dd11dae5f054a3e76e910f743e5bb785dca1778a",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 164
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "d95e7daec6c3015ef0b8b71ed9a02f4f9da84b3f17737de6d17567295547846b",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 158
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "4e3516162fdd44491955e958647c0cc843421d23c33f336ba64cc3273cf050c6",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 152
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "40b4ec6bbde5303922c058500616de5e3c2b4258d698cc47f7f94394fb2d68b5",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 146
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "79d56cb8355b3603a64ad77b2a8896cc93d83dab06a7111d0db19bf4890711ec",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 140
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "bb68555ffd323b721de087f56e5869154a1bb65b3a419e153be767ed907f7619",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 134
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "e050da1f2fa5a30304ff0da2326ff4a2beb3d3c516bf7bee7f22d6fd344c7924",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 128
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "2a996ad5cc1255c1cd824d723937c2ac4d8bf72f309c8c05abac30ce0325d0ad",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 122
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "786025587d848c2a2f27f5f670589ee3f44bd3be3773245012308acdb2380899",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 116
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "80fdca9ce29d2d9d4342beae47ff5f0c73bad0890d8fa80f548023b416f8a15c",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 110
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "b6bf6447f45f25aedf41a3f6ef92966e98ca1b93d5dabb15db694845c4d80b08",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 104
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "0e15597c6894b5f9afbf3f45d891778dc5fd4ce628ae1917ba79e87a6448b0e6",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 98
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "381cc3fe744b57ac39b9a53a45c26d4f7ab3dd175eb1af8f9c99d403affc6a41",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 92
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "baa09d45558cb04923854555ea316ed434228e9e41daad58af6f34d91c6350b9",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 86
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "7005ad626dd8c99282e13d4ebef87afe65711f8206b852f686da3d9bb0de8a92",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 80
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "f4e503e51d7614e45c725a6a1f24fbaaa2669b119bea3a38f25da06fb26c5829",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 74
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "88dacff122acfbc755ddd2a75f602346cd4e137c793b774f603c71d22a0a73dc",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 68
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "d0aa530e261b9fa9f14374def7228ce8f5d85ac2f780d294a4b077f5146423d1",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 62
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "aab9885cd1e68348a1d2a26edb813afad501b8ba6a065cc82cbe1b0856719c8e",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 56
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "770be3193cc315100e371a8d57ebedebe34316c49d40ce444de67e9a66d00fbb",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 50
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "9039e743f7b4fc92168f80dd14e03aa2f79ed628e493bf3d97b9166cb2aeace4",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 44
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "b643ba4c247b18c58bd62cca8ab1f5da4132f00f81e39d3bbdc1d361822ea95d",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 38
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "6889edf5421fab2ec3aa230e85d4f7e523436a5c1e77ad98b7a4969f729804af",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 32
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "La ligne excède 80 caractères (trouvé 83).",
+    "fingerprint": "fa8ad978b44a288745ebe9110f25923f3086840f4c00ad934f70b66931ff64b3",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 32
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "2c9663834c1aa5fb00f500634dff2b60db9f7910d0e0634ac8e6757eebb7e7da",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 25
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "06f3fa690740d6e41d721e853c5b46ec3a32409f36b906f272ca7a969f3818de",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 19
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "La ligne excède 80 caractères (trouvé 83).",
+    "fingerprint": "6f2256fe55b0fb0d2aa327427e05bb8e62af85d51b130471a29f03057f3f246a",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 19
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027,\u0027.",
+    "fingerprint": "4d1bd768a08710e7d4b15675236f79f82f63d7fb379a3265c3fde9bf25e8f51d",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 18
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "4e0e61f457b164cb1fb73878f405b7ef5f13d2b25f5cbbdb6ea2b079753d0408",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "e3c9d4f33d9f2ff02b80189e4abf29a70cc5e2c1caf72ef538b7d4e97692638f",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 10
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Line has trailing spaces.",
+    "fingerprint": "90d72735c5af67575fbd64bbc6254da9a4365e6d287a6d9c0518b9050b6d7578",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 2
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque un caractère NewLine à la fin du fichier.",
+    "fingerprint": "3ef9f0496adee9116486058f65fd2cfdabcb2ff54975b7476a68575cc4350a2e",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le commentaire Javadoc est placé au mauvais endroit.",
+    "fingerprint": "60713799b6d398bebf3fe463dd698e0c4266de3deea9e471602c1ee38f74c987",
+    "location": {
+      "path": "D:/Workspace/workspace-test-qualite/base/src/test/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  }
+]

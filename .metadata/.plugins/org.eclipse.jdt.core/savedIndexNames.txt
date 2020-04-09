@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\Workspace\workspace-test-qualite\.metadata\.plugins\org.eclipse.jdt.core
+3129328917.index
+3078026878.index
+2380175872.index
+1262936825.index
