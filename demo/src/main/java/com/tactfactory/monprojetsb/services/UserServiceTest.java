@@ -40,6 +40,7 @@ public class UserServiceTest {
     public void TestInsertOne() {
         Long before = userRepository.count();
         userService.save(new User());
+        // Add one
         Long after = userRepository.count();
 
         assertEquals(before + 1, after);
@@ -47,7 +48,7 @@ public class UserServiceTest {
 
     @Test
     public void TestInsertUser() {
-        User userBase = new User(null, "Tardif", "Dylan", new ArrayList<Product>());
+        User userBase = new User(null, "LastName", "FirstName", new ArrayList<Product>());
         Long id = userService.save(userBase).getId();
         User userFetch = userRepository.getUserById(id);
 
@@ -56,30 +57,24 @@ public class UserServiceTest {
 
     @Test
     public void TestUpdateUser() {
-        // Create User
-        User userBase = new User(null, "Tardif", "Dylan", new ArrayList<Product>());
+        User userBase = new User(null, "LastName", "FirstName", new ArrayList<Product>());
         Long id = userService.save(userBase).getId();
 
-        //Create Product 1
-        Product product1 = new Product(null, "product1",(float) 10);
+        Product product1 = new Product(null, "p1",(float) 10);
         Long p1 = productRepository.save(product1).getId();
         Product productFetch1 = productRepository.getProductById(p1);
 
-        // Create product 2
-        Product product2 = new Product(null, "product2",(float) 10);
+        Product product2 = new Product(null, "p2",(float) 10);
         Long p2 = productRepository.save(product2).getId();
         Product productFetch2 = productRepository.getProductById(p2);
 
-        // Add products 1 and 2 to products
         List<Product> products = new ArrayList<Product>();
         products.add(productFetch1);
         products.add(productFetch2);
 
-        // Get user and set products
         User userFetch = userRepository.getUserById(id);
         userFetch.setProducts(products);
 
-        // Update user and get id to check modifications
         Long idUpdated = userService.save(userFetch).getId();
         User userFetchUpdated = userRepository.getUserById(id);
 
@@ -88,7 +83,7 @@ public class UserServiceTest {
 
     @Test
     public void TestGetUser() {
-        User userBase = new User(null , "Tardif", "Dylan", new ArrayList<Product>());
+        User userBase = new User(null , "LastName", "FirstName", new ArrayList<Product>());
         Long id = userRepository.save(userBase).getId();
         User userFetch = userService.getUserById(id);
 
@@ -98,9 +93,11 @@ public class UserServiceTest {
     @Test
     public void TestGetList() {
         List<User> users = new ArrayList<User>();
-        User user1 = new User(null, "Tardif", "Dylan", new ArrayList<Product>());
+        
+        User user1 = new User(null, "LastName", "FirstName", new ArrayList<Product>());
         users.add(user1);
-        User user2 = new User(null, "Gantois", "Emilien", new ArrayList<Product>());
+        
+        User user2 = new User(null, "LeDieu", "Brandon", new ArrayList<Product>());
         users.add(user2);
 
         userService.saveList(users);
@@ -116,8 +113,10 @@ public class UserServiceTest {
     public void TestDeleteOne() {
         User userTemp = new User();
         userService.save(userTemp);
+        
         Long before = userRepository.count();
         userService.delete(userTemp);
+        
         Long after = userRepository.count();
 
         assertEquals(before - 1, after);
@@ -125,7 +124,7 @@ public class UserServiceTest {
 
     @Test
     public void TestDeleteUser() {
-        User userBase = new User(null , "Tardif", "Dylan", new ArrayList<Product>());
+        User userBase = new User(null , "LastName", "FirstName", new ArrayList<Product>());
         Long id = userRepository.save(userBase).getId();
         userService.delete(userBase);
 
