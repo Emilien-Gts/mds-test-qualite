@@ -7,5 +7,5 @@ import com.tactfactory.monprojetsb.entities.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
-
+	User getUserById(Long id);
 }

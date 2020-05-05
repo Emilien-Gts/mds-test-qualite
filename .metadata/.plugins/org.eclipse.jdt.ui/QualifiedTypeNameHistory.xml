@@ -2,4 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.tactfactory.monprojetsb.repository.ProductRepository"/>
 <fullyQualifiedTypeName name="com.tactfactory.monprojetsb.repository.UserRepository"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="com.tactfactory.monprojetsb.entities.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

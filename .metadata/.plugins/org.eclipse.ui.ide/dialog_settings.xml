@@ -8,8 +8,11 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Workspace\workspace-test-qualite\tp2"/>
 			<item value="D:\Workspace\workspace-test-qualite\demo"/>
 			<item value="D:\Workspace\workspace-test-qualite\starter"/>
 		</list>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>
