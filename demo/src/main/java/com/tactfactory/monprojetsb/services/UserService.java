@@ -30,12 +30,12 @@ public class UserService {
         this.userRepository.save(item);
     }
 
-    public User getOne(Long id) {
-        return this.userRepository.getOne(id);
-    }
-
     public List<User> findAll() {
         return this.userRepository.findAll();
+    }
+
+    public User getUserById(Long id) {
+        return this.userRepository.getUserById(id);
     }
 
     public void saveList(List<User> users) {
@@ -44,7 +44,4 @@ public class UserService {
         }
     }
 
-    public User getUserById(Long id) {
-        return this.userRepository.getUserById(id);
-    }
 }

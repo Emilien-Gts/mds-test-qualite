@@ -496,3 +496,49 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-05-06 09:25:21.801 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-06 09:26:32.706
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\emili'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-05-06 11:24:58.027 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-06 11:25:28.270
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\emili'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-06 11:29:09.755
+!MESSAGE Manifest org.jacoco:org.jacoco.agent:jar:0.8.5 : Unused Export-Package instructions: [*.internal*] 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-06 11:29:09.763
+!MESSAGE Manifest org.jacoco:org.jacoco.agent:jar:0.8.5 : Unused Import-Package instructions: [org.jacoco.*, org.objectweb.asm.*] 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-06 11:29:09.769
+!MESSAGE Manifest org.jacoco:org.jacoco.agent:jar:0.8.5 : No translation found for macro: buildNumber
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-06 11:31:55.598
+!MESSAGE Manifest org.jacoco:org.jacoco.agent:jar:0.8.5 : No translation found for macro: buildNumber
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-06 11:31:55.603
+!MESSAGE Manifest org.jacoco:org.jacoco.agent:jar:0.8.5 : Unused Export-Package instructions: [*.internal*] 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-06 11:31:55.606
+!MESSAGE Manifest org.jacoco:org.jacoco.agent:jar:0.8.5 : Unused Import-Package instructions: [org.jacoco.*, org.objectweb.asm.*] 

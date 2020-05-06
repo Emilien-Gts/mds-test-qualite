@@ -3,6 +3,9 @@
 <fullyQualifiedTypeName name="com.tactfactory.monprojetsb.repository.ProductRepository"/>
 <fullyQualifiedTypeName name="com.tactfactory.monprojetsb.repository.UserRepository"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
-<fullyQualifiedTypeName name="com.tactfactory.monprojetsb.entities.User"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.tactfactory.monprojetsb.entities.User"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="com.tactfactory.monprojetsb.Tp1Application"/>
 </qualifiedTypeNameHistroy>

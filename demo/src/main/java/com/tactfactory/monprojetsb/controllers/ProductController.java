@@ -11,22 +11,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.tactfactory.monprojetsb.entities.Product;
 import com.tactfactory.monprojetsb.repository.ProductRepository;
+import com.tactfactory.monprojetsb.services.ProductService;
 
 @Controller
 @RequestMapping(value = "/product")
 public class ProductController {
 
     @Autowired
-    private ProductRepository repository;
+    private ProductService productService;
 
-    public ProductController(ProductRepository productRepository) {
-        this.repository = productRepository;
+    public ProductController(ProductService productService) {
+        this.productService = productService;
     }
     
     @RequestMapping(value = { "/index", "/" })
     public String index(Model model) {
         model.addAttribute("page", "Product index");
-        model.addAttribute("items", repository.findAll());
+        model.addAttribute("items", productService.findAll());
         return "product/index";
     }
 
@@ -39,22 +40,22 @@ public class ProductController {
     @PostMapping(value = {"/create"})
     public String createPost(@ModelAttribute Product product) {
         if (product != null) {
-            repository.save(product);
+        	productService.save(product);
         }
         return "redirect:index";
     }
 
     @PostMapping(value = {"/delete"})
     public String delete(Long id) {
-        Product product = repository.getOne(id);
-        repository.delete(product);
+    	Product product = productService.getProductById(id);
+        productService.delete(product);
         return "redirect:index";
     }
 
 
     @GetMapping(value = {"/show/{id}"})
     public String details(Model model, @PathVariable(value = "id") String id) {
-        model.addAttribute("product", repository.getOne(Long.parseLong(id)));
+    	model.addAttribute("product", productService.getProductById(Long.parseLong(id)));
         return "product/detail";
     }
 

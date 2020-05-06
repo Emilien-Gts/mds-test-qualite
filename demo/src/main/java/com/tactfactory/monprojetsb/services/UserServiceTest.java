@@ -1,39 +1,40 @@
 package com.tactfactory.monprojetsb.services;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.aspectj.lang.annotation.Before;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.ComponentScan;
 
+import com.tactfactory.monprojetsb.Tp1Application;
 import com.tactfactory.monprojetsb.entities.Product;
 import com.tactfactory.monprojetsb.entities.User;
+import com.tactfactory.monprojetsb.repository.MockitoUserRepository;
 import com.tactfactory.monprojetsb.repository.ProductRepository;
 import com.tactfactory.monprojetsb.repository.UserRepository;
 
-@RunWith(SpringRunner.class)
-@AutoConfigureTestDatabase(replace = Replace.NONE)
-@DataJpaTest
-@EntityScan(basePackages="com.tactfactory.qualitelogiciel")
-@ComponentScan(basePackages="com.tactfactory.qualitelogiciel")
+@ActiveProfiles("test")
+@TestPropertySource(locations = { "classpath:application-test.properties" })
+@SpringBootTest(classes = Tp1Application.class)
 public class UserServiceTest {
 
-	@Autowired
+	@MockBean
     private UserService userService;
 
-    @Autowired
+	@MockBean
     private UserRepository userRepository;
+	
+	private User entity;
 
     @Autowired
     private ProductRepository productRepository;
 
-    @Before
-    public void clear() {
-        this.productRepository.deleteAll();
-        this.userRepository.deleteAll();
+    @BeforeEach
+    public void setUp() throws Exception {
+      final MockitoUserRepository mock = new MockitoUserRepository(this.userRepository);
+      mock.intialize();
+      this.entity = mock.entity;
     }
 
     @Test
@@ -91,7 +92,7 @@ public class UserServiceTest {
     }
 
     @Test
-    public void TestGetList() {
+    public void TestGetUsers() {
         List<User> users = new ArrayList<User>();
         
         User user1 = new User(null, "LastName", "FirstName", new ArrayList<Product>());

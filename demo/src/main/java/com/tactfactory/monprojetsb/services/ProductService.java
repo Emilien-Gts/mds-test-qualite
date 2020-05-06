@@ -1,5 +1,7 @@
 package com.tactfactory.monprojetsb.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +11,7 @@ import com.tactfactory.monprojetsb.repository.ProductRepository;
 @Service
 public class ProductService {
 
-    @Autowired
+	@Autowired
     private ProductRepository productRepository;
 
     public Product save(Product item) {
@@ -20,7 +22,22 @@ public class ProductService {
         this.productRepository.delete(item);
     }
 
-    public Product getOne(Long id) {
-        return this.productRepository.getOne(id);
+    public void update(Product item) {
+        this.productRepository.save(item);
     }
+
+    public List<Product> findAll() {
+        return this.productRepository.findAll();
+    }
+
+    public Product getProductById(Long id) {
+        return this.productRepository.getProductById(id);
+    }
+
+    public void saveList(List<Product> products) {
+        for (Product product : products) {
+            product.setId(productRepository.save(product).getId());
+        }
+    }
+
 }
